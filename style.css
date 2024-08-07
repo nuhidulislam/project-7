@@ -6,7 +6,9 @@
 }
 /* nav-1 section style start here */
 nav{
- border: 1px solid gray;
+ /* border: 1px solid gray; */
+ border: none;
+ border-bottom: 1px solid gray;
   width: 100%;
 }
 .nav-1{
