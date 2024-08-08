@@ -455,6 +455,7 @@ nav{
 
 
 /* hover effect */
+
 .card-1:hover{
 
   .card-top{
@@ -472,6 +473,7 @@ nav{
 .card-1:hover{
   card-bottom-hover-container{
     display: block;
+    
   }
 }
 .card-1:hover{
@@ -1068,9 +1070,32 @@ flex-direction: column;
   height: 500px;
   display: flex;
   position: relative;
+  border: 2px solid red;
  
 
 }
+.bottom {
+  background: black;
+  border-radius: 20px;
+  height: 335px;
+  width: 355px;
+  position: absolute;
+  margin-top: 123px;
+  margin-left: 16px;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: justify;
+}
+.bottom h2{
+  color: #7CC000;
+  font-size: 20px;
+  margin-top: 10px;
+}
+#customer{
+  color: rgb(151, 149, 149);
+}
+
 
 .collecting-right-img {
   height: 360px;
@@ -1086,30 +1111,9 @@ flex-direction: column;
   border-radius: 20px;
 }
 
-.collecting-bottom {
-border-radius: 20px;
-  height: 335px;
-  width: 355px;
-  margin-top: -390px;
-  margin-left: 720px;
-  position: absolute;
-  background: black;
-  color: white;
-  font-size: 20px;
-  padding: 20px;
-  text-align: justify;
-  border: 2px solid red;
-  position: relative;
-}
 
-.collecting-bottom h2{
-  color: #7CC000;
-  font-size: 20px;
-  margin-top: 10px;
-}
-#customer{
-  color: rgb(151, 149, 149);
-}
+
+
 
 /* collecting section style end here */
 
